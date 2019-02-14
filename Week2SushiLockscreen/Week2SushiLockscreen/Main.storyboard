@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cyr-Bw-QMS">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="lSl-YE-RDm">
+            <objects>
+                <viewController id="cyr-Bw-QMS" customClass="ViewController" customModule="Week2SushiLockscreen" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iVb-4O-FL4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AU2-19-VdG">
+                                <rect key="frame" x="59" y="498" width="118" height="78"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="118" id="NMb-vW-5Jv"/>
+                                    <constraint firstAttribute="height" constant="78" id="wgl-Ht-blo"/>
+                                </constraints>
+                                <state key="normal" title="3" image="uni"/>
+                                <connections>
+                                    <action selector="sushi3:" destination="vxj-Qf-Mcs" eventType="touchUpInside" id="GWq-94-yC9"/>
+                                    <action selector="sushiButton3:" destination="cyr-Bw-QMS" eventType="touchUpInside" id="F9u-Y3-aH3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZHQ-I5-Rl2">
+                                <rect key="frame" x="203" y="498" width="118" height="78"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="78" id="9iD-xH-Rgm"/>
+                                    <constraint firstAttribute="width" constant="118" id="AX5-g9-32F"/>
+                                </constraints>
+                                <state key="normal" title="4" image="maguro"/>
+                                <connections>
+                                    <action selector="sushiButton4:" destination="cyr-Bw-QMS" eventType="touchUpInside" id="6N7-Qi-Uuk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hIB-xz-X7B">
+                                <rect key="frame" x="204" y="614" width="118" height="78"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="118" id="qAh-I7-dcc"/>
+                                    <constraint firstAttribute="height" constant="78" id="wiD-x9-XBp"/>
+                                </constraints>
+                                <state key="normal" title="6" image="hamachi"/>
+                                <connections>
+                                    <action selector="sushiButton6:" destination="cyr-Bw-QMS" eventType="touchUpInside" id="bJP-fz-5Al"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Soy1" translatesAutoresizingMaskIntoConstraints="NO" id="YNC-Bd-6Sg">
+                                <rect key="frame" x="137" y="207" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dot1" translatesAutoresizingMaskIntoConstraints="NO" id="70G-a4-adk">
+                                <rect key="frame" x="163" y="319" width="9" height="9"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dot2" translatesAutoresizingMaskIntoConstraints="NO" id="aE3-C2-CkI">
+                                <rect key="frame" x="187" y="319" width="9" height="9"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dot3" translatesAutoresizingMaskIntoConstraints="NO" id="A5x-Cu-rqj">
+                                <rect key="frame" x="212" y="319" width="9" height="9"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JMM-S3-T9r">
+                                <rect key="frame" x="203" y="387" width="118" height="78"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="78" id="9gr-K2-QYi"/>
+                                    <constraint firstAttribute="width" constant="118" id="Eob-lF-QVG"/>
+                                </constraints>
+                                <state key="normal" title="2" image="tai"/>
+                                <connections>
+                                    <action selector="sushi2:" destination="vxj-Qf-Mcs" eventType="touchUpInside" id="4Vk-Vh-hmz"/>
+                                    <action selector="sushiButton2:" destination="cyr-Bw-QMS" eventType="touchUpInside" id="7Vj-ws-rbI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8y3-hy-3TQ">
+                                <rect key="frame" x="56" y="609" width="125" height="83"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="83" id="Bov-Ww-4fz"/>
+                                    <constraint firstAttribute="width" constant="125" id="WnP-Cr-kpx"/>
+                                </constraints>
+                                <state key="normal" title="5" image="ikura"/>
+                                <connections>
+                                    <action selector="sushiButton5:" destination="cyr-Bw-QMS" eventType="touchUpInside" id="kbn-R7-55S"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wFd-ZP-hEX">
+                                <rect key="frame" x="169" y="700" width="52" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-HeavyOblique" family="Avenir" pointSize="17"/>
+                                <state key="normal" title="RESET">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapReset:" destination="cyr-Bw-QMS" eventType="touchUpInside" id="05W-r4-oCV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RpM-G2-bqR">
+                                <rect key="frame" x="63" y="387" width="118" height="78"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="78" id="7Y3-3P-fCG"/>
+                                    <constraint firstAttribute="width" constant="118" id="ucE-fb-Wkj"/>
+                                </constraints>
+                                <state key="normal" image="hotate"/>
+                                <connections>
+                                    <action selector="sushiButton1:" destination="cyr-Bw-QMS" eventType="touchUpInside" id="hnS-MT-qhv"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="SELECT THREE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A6F-2Y-cDo">
+                                <rect key="frame" x="118" y="170" width="146" height="29"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <bool key="isElement" value="NO"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="Kvd-fE-KWD"/>
+                                    <constraint firstAttribute="width" constant="146" id="e8U-zT-6wX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ZHQ-I5-Rl2" firstAttribute="centerY" secondItem="iVb-4O-FL4" secondAttribute="centerY" constant="131" id="7ES-FM-tT7"/>
+                            <constraint firstItem="hIB-xz-X7B" firstAttribute="centerX" secondItem="iVb-4O-FL4" secondAttribute="centerX" constant="75.5" id="ISY-2L-pFY"/>
+                            <constraint firstItem="ZHQ-I5-Rl2" firstAttribute="centerX" secondItem="iVb-4O-FL4" secondAttribute="centerX" constant="74.5" id="RpZ-EL-ijj"/>
+                            <constraint firstItem="JMM-S3-T9r" firstAttribute="centerY" secondItem="iVb-4O-FL4" secondAttribute="centerY" constant="20" id="UvC-Vu-9pP"/>
+                            <constraint firstItem="JMM-S3-T9r" firstAttribute="centerX" secondItem="iVb-4O-FL4" secondAttribute="centerX" constant="74.5" id="XUk-W8-sfI"/>
+                            <constraint firstItem="A6F-2Y-cDo" firstAttribute="centerX" secondItem="iVb-4O-FL4" secondAttribute="centerX" id="agh-Bn-RyL"/>
+                            <constraint firstItem="RpM-G2-bqR" firstAttribute="centerX" secondItem="iVb-4O-FL4" secondAttribute="centerX" constant="-65.5" id="eOP-03-dzY"/>
+                            <constraint firstItem="8y3-hy-3TQ" firstAttribute="centerY" secondItem="iVb-4O-FL4" secondAttribute="centerY" constant="244.5" id="fLn-xh-M04"/>
+                            <constraint firstItem="RpM-G2-bqR" firstAttribute="centerY" secondItem="iVb-4O-FL4" secondAttribute="centerY" constant="20" id="fdo-GX-9Vi"/>
+                            <constraint firstItem="AU2-19-VdG" firstAttribute="centerX" secondItem="iVb-4O-FL4" secondAttribute="centerX" constant="-69.5" id="hch-xd-Uik"/>
+                            <constraint firstItem="AU2-19-VdG" firstAttribute="centerY" secondItem="iVb-4O-FL4" secondAttribute="centerY" constant="131" id="oLj-qa-KkQ"/>
+                            <constraint firstItem="hIB-xz-X7B" firstAttribute="centerY" secondItem="iVb-4O-FL4" secondAttribute="centerY" constant="247" id="orT-5x-URy"/>
+                            <constraint firstItem="A6F-2Y-cDo" firstAttribute="centerY" secondItem="iVb-4O-FL4" secondAttribute="centerY" constant="-224.5" id="u5T-W6-BQe"/>
+                            <constraint firstItem="8y3-hy-3TQ" firstAttribute="centerX" secondItem="iVb-4O-FL4" secondAttribute="centerX" constant="-69" id="wxw-Bv-z0d"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="oqX-wt-adi"/>
+                    </view>
+                    <connections>
+                        <outlet property="button1" destination="RpM-G2-bqR" id="1UH-2E-NhG"/>
+                        <outlet property="button2" destination="UvC-Vu-9pP" id="I4W-EU-IdM"/>
+                        <outlet property="button3" destination="AU2-19-VdG" id="Li2-qR-bSp"/>
+                        <outlet property="button4" destination="ZHQ-I5-Rl2" id="QEf-ng-L5g"/>
+                        <outlet property="button5" destination="8y3-hy-3TQ" id="Lc0-cX-hig"/>
+                        <outlet property="button6" destination="hIB-xz-X7B" id="d1h-iB-Ylw"/>
+                        <outlet property="dot1" destination="70G-a4-adk" id="2fK-xj-1Ji"/>
+                        <outlet property="dot2" destination="aE3-C2-CkI" id="cuV-il-7lk"/>
+                        <outlet property="dot3" destination="A5x-Cu-rqj" id="Pvt-Sy-AJf"/>
+                        <outlet property="resetButton" destination="wFd-ZP-hEX" id="2VM-XA-sau"/>
+                        <outlet property="selectLabel" destination="A6F-2Y-cDo" id="JV2-cw-d5B"/>
+                        <outlet property="soy1" destination="YNC-Bd-6Sg" id="Hu3-4y-JT5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="atD-nb-Pey" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="vxj-Qf-Mcs" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="-340" y="-154.43349753694582"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Soy1" width="202" height="196"/>
+        <image name="dot1" width="39" height="42"/>
+        <image name="dot2" width="39" height="42"/>
+        <image name="dot3" width="39" height="42"/>
+        <image name="hamachi" width="253" height="165"/>
+        <image name="hotate" width="253" height="165"/>
+        <image name="ikura" width="267" height="177"/>
+        <image name="maguro" width="253" height="165"/>
+        <image name="tai" width="253" height="165"/>
+        <image name="uni" width="253" height="165"/>
+    </resources>
+</document>
